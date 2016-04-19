@@ -23,16 +23,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index_cdn.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index_cdn.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_cdn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3383199" vertical-offset="6" max-vertical-offset="1075">
+            <state vertical-scroll-proportion="-8.6470585" vertical-offset="6" max-vertical-offset="1075">
               <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bodyController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controller/bodyController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.027685493" vertical-offset="0" max-vertical-offset="903">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,6 +83,7 @@
         <option value="$PROJECT_DIR$/style/cdn_style.css" />
         <option value="$PROJECT_DIR$/common/app.js" />
         <option value="$PROJECT_DIR$/index_cdn.html" />
+        <option value="$PROJECT_DIR$/controller/bodyController.js" />
       </list>
     </option>
   </component>
@@ -421,13 +432,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index_cdn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3383199" vertical-offset="6" max-vertical-offset="1075">
+        <state vertical-scroll-proportion="-8.6470585" vertical-offset="6" max-vertical-offset="1075">
           <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/bodyController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.027685493" vertical-offset="0" max-vertical-offset="903">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
