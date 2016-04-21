@@ -1,0 +1,145 @@
+<!--两个按钮-->
+<div>
+    <button class="btn btn-info">全国状态详情</button>
+    <button class="btn btn-default">运营商调度</button>
+</div>
+<!--查询条件-->
+<div class="padder-sm">
+    <div class="row bg-default border">
+        <div class="col-lg-4 col-sm-6 col-xs-12 m-t-sm">
+            <div class="btn-group">
+                <button class="btn btn-info">今天</button>
+                <button class="btn btn-default">昨天</button>
+                <button class="btn btn-default">近7天</button>
+                <button class="btn btn-default">近15天</button>
+                <button class="btn btn-default">近30天</button>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 col-xs-12 m-t-sm row">
+            <div class="col-xs-6">
+                <div class="input-group date form_datetime" data-date-format="yyyy/mm/dd HH:ii" data-link-field="dtp_input1" data-picker-position="bottom-left" >
+                    <input class="form-control" type="text" value="" readonly>
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+                </div>
+                <input type="hidden" id="dtp_input1" value=""/>
+            </div>
+            <span style="position: absolute;left: 50%;">-</span>
+            <div class="col-xs-6">
+                <div class="input-group date form_datetime" data-date-format="yyyy/mm/dd HH:ii" data-link-field="dtp_input2" data-picker-position="bottom-left" >
+                    <input class="form-control" type="text" value="" readonly>
+                    <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+                </div>
+                <input type="hidden" id="dtp_input2" value=""/>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-xs-12 m-t-sm row">
+            <div class="form-group col-sm-3 col-xs-6">
+                <select name="" id="" class="form-control"></select>
+            </div>
+            <div class="form-group col-sm-3 col-xs-6">
+                <select name="" id="" class="form-control"></select>
+            </div>
+            <div class="form-group col-sm-3 col-xs-6">
+                <select name="" id="" class="form-control"></select>
+            </div>
+            <div class="form-group col-sm-3 col-xs-6">
+                <button class="btn btn-info pull-right"> 查询 </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--地图和曲线-->
+<div class="row">
+    <!--地图-->
+    <div class="col-sm-6">
+        <div>
+
+        </div>
+        <div class="box">
+            <p class="title">地域分布状态</p>
+            <div class="content" id="cdnMap" style="min-width:400px;min-height: 300px;height: 350px;">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <!--曲线图一-->
+        <div class="box">
+            <p class="title">整体性能（单位：ms）</p>
+            <div class="content" id="cdnChart1" style="height: 145px">
+
+            </div>
+        </div>
+        <!--曲线图二-->
+        <div class="box m-t-md">
+            <p class="title">可用性（单位：%）</p>
+            <div class="content" id="cdnChart2" style="height: 145px"></div>
+        </div>
+    </div>
+</div>
+
+<!--表格-->
+<div class="">
+    <p class="madder-sm">平均数据</p>
+    <table id="cdnTable" class="table table-bordered table-striped table-condensed">
+        <thead>
+            <th>数据</th>
+            <th>数据</th>
+            <th>数据</th>
+            <th>数据</th>
+            <th>数据</th>
+            <th>数据</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+        </tr>
+        <tr>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+        </tr>
+        <tr>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+        </tr>
+        <tr>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+        </tr>
+        <tr>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+        </tr>
+        <tr>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+            <td>234</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

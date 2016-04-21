@@ -4,7 +4,19 @@
  */
 'use strict';
 
-var app = angular.module("cdnApp" , []);
+var app = angular.module('cdnApp',[
+    //controller
+    'controller.bodyController',
+    'controller.cdnOverview',
+
+    //directive
+    'common.directive',
+
+    //lazyload
+    'oc.lazyLoad'
+
+
+    ]);
 
 
 //修改注册控制器的方法
