@@ -12,10 +12,11 @@ var app = angular.module('cdnApp',[
     //directive
     'common.directive',
 
+    //data
+    'service.cdnData',
+
     //lazyload
     'oc.lazyLoad'
-
-
     ]);
 
 

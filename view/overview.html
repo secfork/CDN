@@ -8,11 +8,11 @@
     <div class="row bg-default border">
         <div class="col-lg-4 col-sm-6 col-xs-12 m-t-sm">
             <div class="btn-group">
-                <button class="btn btn-info">今天</button>
-                <button class="btn btn-default">昨天</button>
-                <button class="btn btn-default">近7天</button>
-                <button class="btn btn-default">近15天</button>
-                <button class="btn btn-default">近30天</button>
+                <button class="btn btn-info" ng-click="quickQuery('today')">今天</button>
+                <button class="btn btn-default" ng-click="quickQuery('yesterday')">昨天</button>
+                <button class="btn btn-default" ng-click="quickQuery('week')">近7天</button>
+                <button class="btn btn-default" ng-click="quickQuery('halfMonth')">近15天</button>
+                <button class="btn btn-default" ng-click="quickQuery('month')">近30天</button>
             </div>
         </div>
         <div class="col-lg-4 col-sm-6 col-xs-12 m-t-sm row">
@@ -34,16 +34,22 @@
         </div>
         <div class="col-lg-4 col-sm-12 col-xs-12 m-t-sm row">
             <div class="form-group col-sm-3 col-xs-6">
-                <select name="" id="" class="form-control"></select>
+                <select name="" id="" class="form-control">
+
+                </select>
             </div>
             <div class="form-group col-sm-3 col-xs-6">
-                <select name="" id="" class="form-control"></select>
+                <select name="" id="" class="form-control">
+
+                </select>
             </div>
             <div class="form-group col-sm-3 col-xs-6">
-                <select name="" id="" class="form-control"></select>
+                <select name="" id="" class="form-control">
+
+                </select>
             </div>
             <div class="form-group col-sm-3 col-xs-6">
-                <button class="btn btn-info pull-right"> 查询 </button>
+                <button class="btn btn-info pull-right" ng-click="cdnQuery()"> 查询 </button>
             </div>
         </div>
     </div>
@@ -53,8 +59,9 @@
 <div class="row">
     <!--地图-->
     <div class="col-sm-6">
-        <div>
-
+        <div class="m-b-sm">
+            <span class="label label-info">可用性评分:<span>{{23.1}}</span></span>
+            <span class="label label-info">性能评分:<span>{{98}}</span></span>
         </div>
         <div class="box">
             <p class="title">地域分布状态</p>
@@ -67,14 +74,14 @@
         <!--曲线图一-->
         <div class="box">
             <p class="title">整体性能（单位：ms）</p>
-            <div class="content" id="cdnChart1" style="height: 145px">
+            <div class="content" id="cdnChart1" style="height: 170px">
 
             </div>
         </div>
         <!--曲线图二-->
-        <div class="box m-t-md">
+        <div class="box m-t-sm">
             <p class="title">可用性（单位：%）</p>
-            <div class="content" id="cdnChart2" style="height: 145px"></div>
+            <div class="content" id="cdnChart2" style="height: 170px"></div>
         </div>
     </div>
 </div>
@@ -143,3 +150,5 @@
         </tbody>
     </table>
 </div>
+
+<p>{{url}}</p>
